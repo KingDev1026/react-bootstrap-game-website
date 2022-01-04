@@ -1,0 +1,69 @@
+.Lore .Lorewave {
+    margin-top: -170px;
+}
+
+.Lore .Lorewave img {
+    width: 100%;
+}
+
+.Lore .Lore-main {
+    background-image: linear-gradient(#4c9a2a, #97c847);
+}
+
+.Lore .Lore-main .Lore-main-body .Lore-main-text h4 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #1E5631;
+    position: relative;
+	text-transform: uppercase;	
+	margin: 0;
+}
+
+.Lore .Lore-main .Lore-main-body .Lore-main-text h3 {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+
+.Lore .Lore-main .Lore-main-body .Lore-main-text p {
+    font-size: 20px;
+    color: white;
+}
+
+.Lore .Lore-main .Lore-main-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Lore .Lore-main .Lore-main-body .Lore-main-text,
+.Lore .Lore-main .Lore-main-body .Lore-main-images {
+    width: 50%;
+}
+
+.Lore .Lore-main .Lore-main-body .Lore-main-images {
+    display: flex;
+    text-align: right;
+}
+
+.Lore .Lore-main .Lore-main-body .Lore-main-images .Lore-main-image img {
+    width: 85%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+@media screen and (max-width:991px) {
+    .Lore .Lore-main .Lore-main-body {
+        display: block;
+    }
+
+    .Lore .Lore-main .Lore-main-body .Lore-main-text,
+    .Lore .Lore-main .Lore-main-body .Lore-main-images {
+        width: 100%;
+    }
+
+    .Lore .Lore-main .Lore-main-body .Lore-main-images .Lore-main-image img {
+        width: 100%;
+        border-radius: 50%;
+        padding: 10px;
+    }
+}

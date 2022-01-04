@@ -1,0 +1,28 @@
+.Topbanner img {
+    padding-top: 80px;
+    width: 82%;
+}
+
+.Topbanner {
+    height: 740px;
+    background-image: url("../../assets/img/slogan_bg.png");
+}
+
+.Topbanner .container {
+    text-align: center;
+}
+
+.mint-button {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #1E5631;
+    cursor: pointer;
+    font-size: 27px;
+    font-weight: bold;
+    border-radius: 28px;
+    padding: 0px 50px;
+}
+
+
+
